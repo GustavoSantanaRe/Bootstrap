@@ -1,0 +1,42 @@
+/* Corpo e fundo da Caixa */
+body{
+height:100vh;
+display:flex;
+align-items:center;                
+justify-content:center;
+background:#30013b;
+}
+
+/* Cor da caixa de login */
+.login-box{  
+background:rgb(253, 253, 253);
+padding:40px;
+border-radius:15px;
+width:350px;
+box-shadow:0 10px 25px rgba(100, 98, 98, 0.1);
+}
+
+/* Texto do grupo de Entrada */
+.input-group-text{
+background:hsl(281, 98%, 50%);
+border:none;
+}
+
+.form-control{
+border:none;
+background:#ffffff;
+transition:0.3s;
+}
+
+/* Botão de login */
+.btn-login{
+border-radius:10px;
+padding:10px;
+transition:0.3s;
+background: hsl(281, 98%, 50%);
+}
+
+/* Animação no botao de entrar */
+.btn-login:hover{
+transform:translateY(-2px);
+}
